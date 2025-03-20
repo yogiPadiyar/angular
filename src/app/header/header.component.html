@@ -1,0 +1,29 @@
+
+<style>
+    .headerAnimation {
+      position: relative;
+      animation-name: moveit;
+      animation-duration: 6s;
+  
+      .header {
+        border: 2px solid black;
+        padding: 10px;
+        font-weight: bold;
+      }
+      @keyframes moveit {
+          from {left: 0%;}
+          to   {left: 100%;}
+      }
+     
+      @keyframes repeatit {
+          from {left: 0%;}
+          to {left: 90%;}
+      }
+    }
+  </style>
+  
+  <header class="header">
+    <h1 class="headerAnimation">AI Treands</h1>
+    <h1 class="headerAnimation">Artificial Intelligence LMS for Professional</h1>
+  </header>
+  
